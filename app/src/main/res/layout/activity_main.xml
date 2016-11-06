@@ -10,8 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.costa.calculadoraexercicio.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <EditText
+        android:id="@+id/first_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_below="@id/first_number"
+        android:id="@+id/second_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    
+
 </RelativeLayout>
